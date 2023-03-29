@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/deku.css" type="text/css">
+    <link rel="icon" href="/img/lod.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Hero Hawks</title>
+</head>
+<body>
+    <div class="head">
+        <h1><span class="out"></span></h1><br><br><br>
+      <li> <button><a href="/index.html?#rank">Back</a></button></li>
+      <li > <button><a class="spread">Plus Ultra</a></button></li>
+    </div>
+    <div class="container">
+        <div class="mid">
+            <img id="aud" src="/img/hawkPro.jpg" alt="">
+        </div>
+        <div class="intro">
+            <p>
+                <b>Keigo Takami </b>(鷹たか見み啓けい悟ご Takami Keigo?) also known as Wing Hero: <b>Hawks </b>(ウィングヒーロー ホークス Wingu Hīrō Hōkusu?), is the former No. 3 and current No. 2 Pro Hero.
+             </p><br>
+            <h2>Appearance </h2>
+            <p>Keigo is a man of average height with a slim and narrow build. He himself has pointed out that his back muscles are not broad enough (though this is more of a metaphor portraying his lack of ability to lead and provide stability). He has feathery, ash blond hair that is swept messily backward, with some of the front tufts sticking up in arcs above his head. His eyebrows are notably thick, having a similar appearance to his hair, and he has faint stubble on his chin.
+                <br><br>
+                His eyes are golden-brown and rather triangular, with two small black triangles just below his tear ducts and in the top corners of his eyes, making them resemble those of a bird. The marks around his eyes are natural, as it is shown that he already had them as a child. His Quirk grants him a set of large, bright red feathered wings. Although the sizing of his wings is somewhat inconsistent, they are mostly shown to reach over his head when folded.
+                <br><br>
+                After the Paranormal Liberation War, and following several injuries given by Dabi, Keigo momentarily wore a respirator mask device and communicated with a voice simulator through his phone due to his vocal cords being injured and his wings burned off
+                <h2>Powers and abilities</h2>  
+                <img src="/img/hawk.png" alt="">
+                <p><span1>Fierce Wings </span1>(剛ごう翼よく Gōyoku?): Keigo's Quirk grants him a pair of large, bright red, feathery wings on his back. These wings allow him to fly, and he can telekinetically control the movement and nature of each individual feather with ease, enabling him to harden them into a blade-like state and/or shoot them as projectiles, as well as control their speed and trajectory.
+
+                <li><span1>Feather Blades </span1> Keigo plucks out two primary feathers from each of his wings, manipulates their nature, and uses them as swords to cut through his target. They are sharp enough to slice through two white Nomu summoned by High-End. It is also shown that he threatens Dabi with a single feather blade after the attack.
+
+                </li>      
+                <li><span1>Enhanced Sight</span1> Keigo has a very acute sense of sight. From the top of a skyscraper, Keigo was able to spot Endeavor between hundreds of citizens, which implies he has incredibly sharp vision.
+
+                </li>      
+                <li><span1>Vocal Espionage</span1>  Keigo is able to use individual feathers to distinguish sounds from the second it changes in the air, allowing him to decode conversations and vocal information by sensing the vibrations. Especially after leaving the room or increasing the distance, this technique makes him a dangerous spy
+
+                </li>      
+ </div>
+    </div>
+    <div class="end">
+        <li><button><a href="/index.html">Return</a></button></li>
+        <li><button><a href="/pdf/HAWKS-PDF.pdf">Download CV</a></button></li>
+    </div>
+
+
+    <div class="sal">
+        <a href="index.html"><h1>------------Thank You For Serfing--------------</h1></a>
+    </div><br><br>
+    <!-- Footer Section Start From Here -->
+    <div class="container5">
+        <div class="footer">
+            <footer>
+                <div class="footer-content">
+                    <h3>MY HERO ACADEMIA</h3><br>
+                    <p>The story of My Hero Academia is set in a world where currently most of the 
+                        human population has gained the ability to develop superpowers called "Quirks" 
+                        (個性, Kosei), which occur in children within the age of four: it is estimated 
+                        that around 80% of the world population has a Quirk.</p>
+                        <div class="media">
+                            <div class="media">
+                                <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                           </div>
+                </div>
+                <marquee ><span>This  Website  Are  build  Using  HTML , CSS and little-bit JavaScript  Language..!!!!</span></marquee>
+                <div class="footer-bottom">
+                    <p>Copyright &copy; 2023 My Hero Academia. Design by <span5>Deepak Mane</span5> </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+   <script>
+    let play = document.getElementById("aud");
+    function playMusic(){
+        let audio = new Audio("/music/you.mp3");
+        audio.play()
+    }
+    play.addEventListener("click",playMusic);
+
+    var typed = new Typed('.out', {
+        strings: ["Keigo Takam..!"," Wing Hero "," Hawks"],
+    typeSpeed: 70,
+    backSpeed:60,
+    loop:true
+    });
+
+    const btnConfetti = document.querySelector('.spread');
+    btnConfetti/addEventListener('click',function(){
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: {y:0.6}
+
+        })
+    })
+   </script> 
+</body>
+</html>
